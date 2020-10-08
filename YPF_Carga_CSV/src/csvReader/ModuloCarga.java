@@ -10,7 +10,7 @@ public class ModuloCarga {
 		
 	public static final String SEPARADOR = ";";
 		
-	static String ruta = "C:\\Users\\Usuario\\Downloads\\abiertos-im.csv";
+	static String ruta = "C:\\archivo.csv";
 
 	public static void main(String[] args) {
 	 
@@ -20,7 +20,7 @@ public class ModuloCarga {
 	 BufferedReader bufferLectura = null;
 	 try {
 		 
-	  // Abrir el .csv en buffer de lectura
+	 // Abrir el .csv en buffer de lectura
 		bufferLectura = new BufferedReader(new FileReader(ruta));
 	  
 	  // Leer una linea del archivo
