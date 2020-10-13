@@ -3,13 +3,18 @@
 		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
 		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
-    <session-factory name="session factory">
+	
+    <session-factory >
         <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
         <property name="hibernate.connection.password">123456</property>
         <property name="hibernate.connection.url">jdbc:sqlserver://DESKTOP-DN3QN3D\SQLEXPRESS</property>
         <property name="hibernate.connection.username">max</property>
         <property name="hibernate.default_catalog">CC_Cubo</property>
-        <property name="hibernate.default_schema">CC_Cubo</property>
         <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <mapping class="cubo.Dim_criticidad"/>
+        <mapping class="cubo.Dim_analista"/>
+        <mapping class="cubo.Dim_grupo"/>
+        <mapping class="cubo.Dim_fecha"/>
     </session-factory>
+    
 </hibernate-configuration>
