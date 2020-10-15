@@ -80,10 +80,12 @@ while(a<= archivos.length)
 		 
 		 if (tticket >0) 
 		 {
+			 // si es q 
 			 valorTicket = 1;
 System.out.println(valorTicket);
 		 }else 
 		 {
+			 // si es im
 			 valorTicket = 2;
 System.out.println(valorTicket);
 		 }
