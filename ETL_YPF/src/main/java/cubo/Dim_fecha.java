@@ -1,4 +1,4 @@
-package com.stefanini.etlypfcc.model;
+package cubo;
 
 import java.io.Serializable;
 import java.sql.Date;

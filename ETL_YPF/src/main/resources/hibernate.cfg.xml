@@ -15,6 +15,8 @@
         <mapping class="cubo.Dim_analista"/>
         <mapping class="cubo.Dim_grupo"/>
         <mapping class="cubo.Dim_fecha"/>
+        <mapping class="cubo.Dim_tipo_ticket"/>
+        <mapping class="cubo.Fact_ticket_abierto"/>
     </session-factory>
     
 </hibernate-configuration>
