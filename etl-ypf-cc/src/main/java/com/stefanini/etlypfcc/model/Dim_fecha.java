@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="dbo.dim_fecha")
+@Table(name="dim_fecha")
 public class Dim_fecha implements Serializable{
 
 	@Id

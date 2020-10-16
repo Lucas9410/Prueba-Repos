@@ -3,7 +3,7 @@ package com.stefanini.etlypfcc.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+
 public class FileQ {
 	
 	@Id

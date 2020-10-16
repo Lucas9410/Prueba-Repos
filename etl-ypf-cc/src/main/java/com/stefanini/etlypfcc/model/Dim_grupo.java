@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="dbo.dim_grupo")
+@Table(name="dim_grupo")
 public class Dim_grupo implements Serializable{
 
 	@Id

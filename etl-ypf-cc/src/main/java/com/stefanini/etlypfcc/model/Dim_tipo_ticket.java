@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="dbo.dim_tipo_ticket")
+@Table(name="dim_tipo_ticket")
 public class Dim_tipo_ticket implements Serializable{
 
 	@Id

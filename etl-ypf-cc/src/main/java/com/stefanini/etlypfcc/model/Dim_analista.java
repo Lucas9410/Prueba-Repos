@@ -14,7 +14,7 @@ import org.hibernate.annotations.Type;
 
 
 @Entity
-@Table(name="dbo.dim_analista")
+@Table(name="dim_analista")
 public class Dim_analista implements Serializable{
 
 	

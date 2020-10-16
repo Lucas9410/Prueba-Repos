@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="dbo.fact_ticket_abierto")
+@Table(name="fact_ticket_abierto")
 public class Fact_ticket_abierto implements Serializable{
 
 	@Id
