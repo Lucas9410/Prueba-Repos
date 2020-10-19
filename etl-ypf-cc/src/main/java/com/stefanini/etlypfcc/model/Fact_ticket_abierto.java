@@ -54,10 +54,13 @@ public class Fact_ticket_abierto implements Serializable{
 		this.id_grupo_apertura = id_grupo_apertura;
 	}
 	public Fact_ticket_abierto(String numero_ticket, String hora_apertura, int id_criticidad,int id_tipo_ticket){
-			this.numero_ticket = numero_ticket;
-			this.hora_apertura = hora_apertura;
-			this.id_criticidad = id_criticidad;
-			this.id_tipo_ticket = id_tipo_ticket;
+		this.numero_ticket = numero_ticket;
+		this.id_fecha_apertura = 5;
+		this.hora_apertura = hora_apertura;
+		this.id_criticidad = id_criticidad;
+		this.id_tipo_ticket = id_tipo_ticket;
+		this.id_analista_apertura = 6;
+		this.id_grupo_apertura = 5;
 		}
 	
 	

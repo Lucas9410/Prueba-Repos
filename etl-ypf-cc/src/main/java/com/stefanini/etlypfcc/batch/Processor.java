@@ -18,9 +18,10 @@ public class Processor implements ItemProcessor<FileQ,Fact_ticket_abierto> {
 	public Fact_ticket_abierto process(FileQ fileQ) throws Exception {
 		final String numeroTicket = fileQ.getNumero();
 		final String horaApertura = fileQ.getHoraApertura();
-		final int cricitidad = fileQ.getPrioridad();
+		final int cricitidad = Integer.parseInt(fileQ.getPrioridad());
 		final Fact_ticket_abierto ticket = new Fact_ticket_abierto(numeroTicket,horaApertura,cricitidad,1); 
-		//TODO: (prueba)  Corregir parametros
+		System.out.println("+++ Procesando filas...");
+		System.out.println("++ Numero de ticket: "+numeroTicket);
 		
 		return ticket;
 		

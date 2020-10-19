@@ -8,13 +8,13 @@ public class FileQ {
 	
 	@Id
 	private String numero;
-	private int prioridad;
+	private String prioridad;
 	private String deptoAsignado;
 	private String SolicitadoPor;
 	private String FechaApertura;
 	
 	
-	public FileQ(String numero, int prioridad, String deptoAsignado, String solicitadoPor, String fechaApertura) {
+	public FileQ(String numero, String prioridad, String deptoAsignado, String solicitadoPor, String fechaApertura) {
 		super();
 		this.numero = numero;
 		this.prioridad = prioridad;
@@ -33,7 +33,7 @@ public class FileQ {
 		return numero;
 	}
 
-	public int getPrioridad() {
+	public String getPrioridad() {
 		return prioridad;
 	}
 
@@ -52,6 +52,28 @@ public class FileQ {
 	}
 	public String getHoraApertura() {
 		return FechaApertura.substring(11);
+	}
+
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+	public void setPrioridad(String prioridad) {
+		if (!prioridad.isEmpty())
+		this.prioridad = prioridad;
+		else this.prioridad = "1";
+	}
+
+	public void setDeptoAsignado(String deptoAsignado) {
+		this.deptoAsignado = deptoAsignado;
+	}
+
+	public void setSolicitadoPor(String solicitadoPor) {
+		SolicitadoPor = solicitadoPor;
+	}
+
+	public void setFechaApertura(String fechaApertura) {
+		FechaApertura = fechaApertura;
 	}
 
 	public FileQ() {
